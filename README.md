@@ -22,7 +22,7 @@ disk: 50GB
 
 Like:
 ```
-gcloud compute instances create cks-master --zone=europe-west3-c \
+gcloud compute instances create cav-cks-master --zone=us-east1-b \
 --machine-type=e2-medium \
 --image=ubuntu-1804-bionic-v20201014 \
 --image-project=ubuntu-os-cloud \
@@ -48,7 +48,7 @@ disk: 50GB
 
 Like:
 ```
-gcloud compute instances create cks-worker --zone=europe-west3-c \
+gcloud compute instances create cav-cks-worker --zone=us-east1-b \
 --machine-type=e2-medium \
 --image=ubuntu-1804-bionic-v20201014 \
 --image-project=ubuntu-os-cloud \
