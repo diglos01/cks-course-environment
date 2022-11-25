@@ -23,8 +23,8 @@ disk: 50GB
 Like:
 ```
 gcloud compute instances create cav-cks-master --zone=us-east1-b \
---machine-type=e2-medium \
---image=ubuntu-1804-bionic-v20201014 \
+--machine-type=e2-standard-4  \
+--image=ubuntu-2004-focal-v20220610 \
 --image-project=ubuntu-os-cloud \
 --boot-disk-size=50GB
 ```
@@ -49,8 +49,8 @@ disk: 50GB
 Like:
 ```
 gcloud compute instances create cav-cks-worker --zone=us-east1-b \
---machine-type=e2-medium \
---image=ubuntu-1804-bionic-v20201014 \
+--machine-type=e2-standard-4 \
+--image=ubuntu-2004-focal-v20220610 \
 --image-project=ubuntu-os-cloud \
 --boot-disk-size=50GB
 ```
